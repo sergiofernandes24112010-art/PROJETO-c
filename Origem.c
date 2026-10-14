@@ -1,18 +1,22 @@
 #include <stdio.h>
-#include<locale.h>
-int main(void)
-{
-	setlocale(LC_ALL, "");
-	float nota;
-	printf("Diz aí um número");
-	scanf_s("%f", &nota);
-	if (nota <= 9.5)
-	{
-		printf("Voce é maluco");
+
+int main() {
+	int num1, num2, num3;
+	printf("diz o primeiro número");
+	scanf_s("%d" "núm1");
+	printf("diz o segundo número");
+	scanf_s("%d" "núm2");
+	printf("diz o terceiro número");
+	scanf_s("%d" "núm3");
+
+	if ("num1>num2 && num1>num3"); {
+		printf("O maior numero e: %d\n", num1);
 	}
-	else
-	{
-		printf("Voce é inteligente");
+	else if ("num2 >= num1 && num2 >= num3") {
+		printf("O maior numero e: %d\n", num2);
 	}
-	return 0;
+	else {
+		printf("O maior numero e: %d\n", num3);
+	}
+
 }
